@@ -6,6 +6,10 @@
   color: #FA5959;
 }
 
+#myTab:hover {
+  color: #FA5959;
+}
+
 #features:hover {
   color: white;
 }
@@ -35,10 +39,24 @@
   left: 0;
 }
 
+.fox {
+  margin-top: 30rem;
+}
+
 @media (min-width: 390px) {
   .background-item {
     height: 15rem;
     width: 24rem;
+  }
+  .background-item-revese {
+    height: 14rem;
+    width: 18rem;
+    top: 80rem;
+  }
+  .body {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -54,11 +72,19 @@
     height: 19rem;
     width: 32rem;
   }
+  .background-item-revese {
+    height: 16rem;
+    width: 24rem;
+  }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 574px) {
   .background-item {
     width: 30rem;
+  }
+  .background-item-revese {
+    height: 18rem;
+    width: 28rem;
   }
 }
 
@@ -67,12 +93,21 @@
     height: 25rem;
     width: 40rem;
   }
+  .background-item-revese {
+    height: 24rem;
+    width: 38rem;
+  }
 }
 
 @media (min-width: 992px) {
   .background-item {
     height: 18rem;
     width: 30rem;
+  }
+  .background-item-revese {
+    height: 14rem;
+    width: 30rem;
+    top: 58rem;
   }
 }
 
@@ -81,12 +116,21 @@
     height: 22rem;
     width: 33rem;
   }
+  .background-item-revese {
+    height: 16rem;
+    width: 36rem;
+  }
 }
 
 @media (min-width: 1400px) {
   .background-item {
     height: 24rem;
     width: 36rem;
+  }
+  .background-item-revese {
+    height: 22rem;
+    width: 42rem;
+    top: 63rem;
   }
 }
 

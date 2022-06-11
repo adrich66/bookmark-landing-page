@@ -9,6 +9,10 @@ $secondary: #FA5959;
 .nav-item:hover {
   color:#FA5959;
 }
+#myTab:hover{
+  color:#FA5959 ;
+}
+
 #features:hover{
   color:white;
 }
@@ -35,13 +39,23 @@ $secondary: #FA5959;
     top: 65rem;
     left: 0;
   }
+
+.fox{
+  margin-top: 30rem;
+}
   @media (min-width: 390px) {
     .background-item {
       height: 15rem;
       width: 24rem;
     }
-
-    
+    .background-item-revese {
+      height: 14rem;
+      width: 18rem;
+      top: 80rem;
+    }
+    .body{
+      align-items:center;
+    }
   }
 
   @media (min-width: 465px) {
@@ -49,6 +63,7 @@ $secondary: #FA5959;
       height: 17rem;
       width: 28rem;
     }
+    
   }
 
   @media (min-width: 510px) {
@@ -56,11 +71,18 @@ $secondary: #FA5959;
       height: 19rem;
       width: 32rem;
     }
+    .background-item-revese {
+      height: 16rem;
+      width: 24rem;
+    }
   }
-  @media (min-width: 576px) {
+  @media (min-width: 574px) {
     .background-item {
       width: 30rem;
-     
+    }
+    .background-item-revese {
+      height: 18rem;
+      width: 28rem;
     }
   }
   
@@ -71,7 +93,10 @@ $secondary: #FA5959;
       width: 40rem;
       
     }
-    
+    .background-item-revese {
+      height: 24rem;
+      width: 38rem;
+    }
   }
   
    @media (min-width: 992px) {
@@ -79,6 +104,11 @@ $secondary: #FA5959;
       height: 18rem;
       width: 30rem;
     
+    }
+    .background-item-revese {
+      height: 14rem;
+      width: 30rem;
+      top: 58rem;
     }
   }
   
@@ -89,7 +119,10 @@ $secondary: #FA5959;
     
     
     }
-    
+    .background-item-revese {
+      height: 16rem;
+      width: 36rem;
+    }
   }
   
    @media (min-width: 1400px) {
@@ -98,7 +131,11 @@ $secondary: #FA5959;
       width: 36rem;
 
     }
-   
+    .background-item-revese {
+      height: 22rem;
+      width: 42rem;
+      top: 63rem;
+    }
   }
   
   
